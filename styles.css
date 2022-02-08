@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.root_container {
+	padding: 10px;
+}
+
+/*===================
+Logo
+===================== */
+.logo_container {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.logo_wrap {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 12px;
+}
+
+.logo {
+	width: 82px;
+	height: 100px;
+}
+
+.heading {
+	font-family: Raleway;
+	text-align: center;
+	display: inline;
+}
+
+/*===================
+Den otvorenych dveri
+===================== */
+.den_otvorenych_dveri {
+	margin-bottom: 32px;
+	font-family: Raleway;
+	padding-left: 60px;
+	padding-right: 60px;
+
+	display: flex;
+	justify-content: space-between;
+	gap: 320px;
+}
+
+.section_heading {
+	min-width: 500px;
+	font-size: 56px;
+	align-self: center;
+	max-width: 650px;
+	line-height: .95;
+}
+
+.section_content__text {
+	font-family: 'Open Sans';
+	font-size: 24;
+	max-width: 670px;
+	letter-spacing: .5;
+	margin-bottom: 10px;
+}
+
+.section_content__zistis_viac {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	text-transform: uppercase;
+	border: 2px solid black;	
+
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+	transition: transform .2s;
+}
+
+.section_content__zistis_viac:hover {
+	cursor: pointer;
+	color: black;
+	background-color: white;
+	transform: translateY(-2px);
+	box-shadow: 5px 2px 7px black;
+}
+
+/*===================
+GOTO
+===================== */
+.goto_container {
+	text-align: end;
+}
+
+.goto_page_link {
+	font-size: 18px;
+	font-family: Raleway;
+	color: black;
+	transition: font-size .2s;
+}
+
+.goto_page_link:hover {
+	font-size: 22px;
+}
